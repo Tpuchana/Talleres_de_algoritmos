@@ -3,8 +3,8 @@ n=int(input("Introduzca el número de estudiantes "))
 i=1
 
 while (n>0):
-    estatura= int(input(f"Estudiante {i}: "))
-    lista.append(estatura)
+    edad= int(input(f"Estudiante {i}: "))
+    lista.append(edad)
     i=i+1
     n=n-1
 
