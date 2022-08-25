@@ -8,4 +8,4 @@ while (n>0):
     i=i+1
     n=n-1
 
-print(f"La lista de estaturas es de: {lista}")
+print(f"La lista de edades es de: {lista}")
