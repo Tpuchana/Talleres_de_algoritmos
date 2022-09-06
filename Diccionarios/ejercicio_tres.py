@@ -15,6 +15,11 @@ usuarios = {
  "password": "123456"  } 
  } 
 
-Usuario = print(input("Escriba su usuario: "))
-for clave in usuarios:
-    if Usuario 
+Usuario = input("Escriba su usuario: ")
+Contraseña = input("Escriba su contraseña: ")
+
+if Usuario in usuarios and Contraseña == usuarios[Usuario]["password"]:
+     print(f"Bienvenido {Usuario}")
+else:
+    print("Usuario o contraseña incorrecta")
+
